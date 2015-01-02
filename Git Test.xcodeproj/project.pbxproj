@@ -15,6 +15,7 @@
 		6E697A941A567BE700476A76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E697A931A567BE700476A76 /* Images.xcassets */; };
 		6E697A971A567BE700476A76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E697A951A567BE700476A76 /* LaunchScreen.xib */; };
 		6E697AA31A567BE700476A76 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E697AA21A567BE700476A76 /* Git_TestTests.m */; };
+		6E697AAE1A567FA800476A76 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E697AAD1A567FA800476A76 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		6E697A9C1A567BE700476A76 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E697AA11A567BE700476A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E697AA21A567BE700476A76 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6E697AAC1A567FA800476A76 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		6E697AAD1A567FA800476A76 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				6E697A951A567BE700476A76 /* LaunchScreen.xib */,
 				6E697A8A1A567BE700476A76 /* Git_Test.xcdatamodeld */,
 				6E697A831A567BE700476A76 /* Supporting Files */,
+				6E697AAC1A567FA800476A76 /* CCTest.h */,
+				6E697AAD1A567FA800476A76 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				6E697A861A567BE700476A76 /* main.m in Sources */,
 				6E697A8F1A567BE700476A76 /* ViewController.m in Sources */,
 				6E697A8C1A567BE700476A76 /* Git_Test.xcdatamodeld in Sources */,
+				6E697AAE1A567FA800476A76 /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
